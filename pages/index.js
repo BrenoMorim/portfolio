@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import LanguageContext from "../src/context/LanguageContext";
 import courses from "../src/data/courses";
+import techStack from "../src/data/techStack";
 
 export default function HomePage() {
 
@@ -31,8 +32,10 @@ export default function HomePage() {
             </header>
             <main>
                 <section className="aboutMe">
-                    <h3 className="aboutMe__title">{state.texts.aboutMe.title}</h3>
-                    <p className="aboutMe__summary">{state.texts.aboutMe.summary}</p>
+                    <div className="summary">
+                        <h3 className="aboutMe__title">{state.texts.aboutMe.title}</h3>
+                        <p className="aboutMe__summary">{state.texts.aboutMe.summary}</p>
+                    </div>
                     <div className="aboutMe__div">
                         <div className="languages">
                             <p className="languages__title">{state.texts.aboutMe.languages}</p>
@@ -56,12 +59,24 @@ export default function HomePage() {
                         </div>
                     </div>
                 </section>
-                <section>
-                    <h3>{state.texts.techStack}</h3>
-                    <ul>
-                        <li>React</li>
-                        <li>Next</li>
-                    </ul>
+                <section className="techstack">
+                    <h3 className="techstack__title">{state.texts.techStack}</h3>
+                    <div className="techstack__areas">
+                        {techStack.map(stack => {
+                            return (
+                                <div key={stack.title} className="techstack__area">
+                                    <p className="techstack__caption">{stack.title}</p>
+                                    <ul className="techstack__list">
+                                        {stack.tags.map(tag => (
+                                            <li key={tag}>
+                                                <img src={tag}/>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )
+                        })}
+                    </div>
                 </section>
                 <section>
                     {state.texts.myProjects}:
