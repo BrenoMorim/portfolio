@@ -7,7 +7,7 @@ export default function AboutMe() {
     const { state } = useContext(LanguageContext);
 
     return (
-        <section className="aboutMe">
+        <section className="aboutMe animate__animated animate__fadeInLeft">
             <div className="summary">
                 <h3 className="aboutMe__title">{state.texts.aboutMe.title}</h3>
                 <p className="aboutMe__summary">{state.texts.aboutMe.summary}</p>

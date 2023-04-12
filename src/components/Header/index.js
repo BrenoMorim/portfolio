@@ -7,9 +7,9 @@ export default function Header() {
 
     return (
         <header className="heading">
-            <h1 className="heading__title">Breno Morim</h1>
-            <h2 className="heading__caption">{state.texts.jobTitle}</h2>
-            <div className="heading__div">
+            <h1 className="heading__title animate__animated animate__slideInLeft">Breno Morim</h1>
+            <h2 className="heading__caption animate__animated animate__slideInLeft">{state.texts.jobTitle}</h2>
+            <div className="heading__div animate__animated animate__slideInLeft">
                 <h3 className="heading__text">{state.texts.selectLanguage}:</h3>
                     <button 
                         className="heading__button" 

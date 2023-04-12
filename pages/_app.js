@@ -2,6 +2,7 @@ import { useState } from "react";
 import LanguageContext from "../src/context/LanguageContext.js";
 import languagesTexts from "../src/data/languagesTexts.js";
 import "the-new-css-reset/css/reset.css";
+import "animate.css";
 import "../styles/globalStyle.css";
 
 export default function App({ Component, pageProps }) {

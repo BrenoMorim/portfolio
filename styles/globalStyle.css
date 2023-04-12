@@ -13,6 +13,9 @@
     --third-color: #29f0fa;
     --standard-width: 80%;
     --standard-padding: 10%;
+
+    --animate-duration: 900ms;
+    --animate-delay: 0.9s;
 }
 
 @media screen and (max-width: 768px) {

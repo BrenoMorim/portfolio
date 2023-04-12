@@ -7,7 +7,7 @@ export default function ContactInfo() {
     const { state } = useContext(LanguageContext);
 
     return (
-        <section className="contact">
+        <section className="contact animate__animated animate__bounceIn">
             <h3 className="contact__title">{state.texts.contactInfo.title}</h3>
             <div className="contactInfo">
                 <div className="contactInfo__div">
