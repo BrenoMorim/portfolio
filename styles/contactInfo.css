@@ -55,3 +55,15 @@
 .contactInfo__button:hover {
     transform: scale(1.075);
 }
+
+@media screen and (max-width: 768px) {
+    .contactInfo__button {
+        font-size: 1.25rem;
+        padding: .5rem 1rem;
+    }
+
+    .contactInfo__icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}

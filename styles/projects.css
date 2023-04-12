@@ -64,6 +64,14 @@
     display: inline-block;
     border-radius: .5rem;
     font-size: 1.25rem;
+    border: 2px solid black;
+    transition: 500ms all;
+}
+
+.project__link:hover {
+    color: #29f0fa;
+    background-color: black;
+    border-color: #29f0fa;
 }
 
 .project__area {
