@@ -1,0 +1,57 @@
+.contact {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 2rem 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact__title {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+.contactInfo__div {
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contactInfo__icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.contactInfo__button {
+    padding: .75rem 1.25rem;
+    background-color: #29f0fa;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 500ms;
+    box-sizing: border-box;
+    border: 3px solid #29f0fa;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contactInfo__button:hover {
+    transform: scale(1.075);
+}

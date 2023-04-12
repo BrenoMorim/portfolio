@@ -11,7 +11,12 @@ let languagesTexts = {
             spanish: "I'm currently taking a Spanish course at Wizard.",
             courses: "Courses"
         },
-        techStack: "Technologies I'm familiar with",
+        contactInfo: {
+            title: "Contact information",
+            email: "Email",
+            phoneNumber: "Phone number"
+        },
+        techStack: "Technologies I use",
         myProjects: "My projects",
         footerText: "Developed by Breno Morim in 2023, using Next.js",
     },
@@ -27,6 +32,11 @@ let languagesTexts = {
             portuguese: "Nasci e fui criado em São Paulo, Brasil.",
             spanish: "Estou cursando espanhol na Wizard atualmente.",
             courses: "Cursos"
+        },
+        contactInfo: {
+            title: "Informações para contato",
+            email: "Email",
+            phoneNumber: "Celular"
         },
         techStack: "Tecnologias com que trabalho",
         myProjects: "Meus projetos",

@@ -2,6 +2,8 @@
 @import url("heading.css");
 @import url("aboutMe.css");
 @import url("techstack.css");
+@import url("contactInfo.css");
+@import url("footer.css");
 
 :root {
     font-family: 'League Spartan', sans-serif;
@@ -13,5 +15,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10vw;
+}
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

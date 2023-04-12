@@ -30,7 +30,7 @@ export default function HomePage() {
                         </button>
                 </div>  
             </header>
-            <main>
+            <main className="mainContainer">
                 <section className="aboutMe">
                     <div className="summary">
                         <h3 className="aboutMe__title">{state.texts.aboutMe.title}</h3>
@@ -57,6 +57,27 @@ export default function HomePage() {
                                 }
                             </ul>
                         </div>
+                    </div>
+                </section>
+                <section className="contact">
+                    <h3 className="contact__title">{state.texts.contactInfo.title}</h3>
+                    <div className="contactInfo">
+                        <div className="contactInfo__div">
+                            <p className="contactInfo__text">{state.texts.contactInfo.email}: brenomorim13@gmail.com</p>
+                            <p className="contactInfo__text">{state.texts.contactInfo.phoneNumber}: +55 (11) 97240-3198</p>
+                        </div>
+                        <a href="https://github.com/BrenoMorim" className="contactInfo__button">
+                            <img className="contactInfo__icon" src="icons/github.png"/> 
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/brenomorim/" className="contactInfo__button">
+                            <img className="contactInfo__icon" src="icons/linkedin.png"/> 
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://cursos.alura.com.br/user/brenomorim13" className="contactInfo__button">
+                            <img className="contactInfo__icon" src="icons/alura.png"/> 
+                            <span>Alura</span>
+                        </a>
                     </div>
                 </section>
                 <section className="techstack">
@@ -86,8 +107,8 @@ export default function HomePage() {
                     <li>Projeto2</li>
                 </ul>
             </main>
-            <footer>
-                <p>{state.texts.footerText}</p>
+            <footer className="footer">
+                <p className="footer__text">{state.texts.footerText} =)</p>
             </footer>
         </div>
     );

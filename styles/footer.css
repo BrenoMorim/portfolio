@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.footer__text {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
