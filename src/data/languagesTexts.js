@@ -18,6 +18,7 @@ let languagesTexts = {
         },
         techStack: "Technologies I use",
         myProjects: "My projects",
+        projectLink: "Check the project",
         footerText: "Developed by Breno Morim in 2023, using Next.js",
     },
     "pt-br": {
@@ -40,6 +41,7 @@ let languagesTexts = {
         },
         techStack: "Tecnologias com que trabalho",
         myProjects: "Meus projetos",
+        projectLink: "Ver projeto",
         footerText: "Desenvolvido por Breno Morim em 2023, usando Next.js"
     }
 };
