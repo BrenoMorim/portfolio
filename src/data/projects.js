@@ -79,7 +79,7 @@ const projects = [
     },
     {   
         title: {
-            "en-us": "Run away She She",
+            "en-us": "Run away Sherlock",
             "pt-br": "Foge foge She She"
         },
         desc: {

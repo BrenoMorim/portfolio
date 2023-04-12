@@ -1,8 +1,8 @@
 .contact {
-    background-color: black;
-    color: white;
+    background-color: var(--second-color);
+    color: var(--first-color);
     width: 100%;
-    padding: 2rem 10vw;
+    padding: 2rem var(--standard-padding);
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -37,15 +37,15 @@
 
 .contactInfo__button {
     padding: .75rem 1.25rem;
-    background-color: #29f0fa;
-    color: #000000;
+    background-color: var(--third-color);
+    color: var(--second-color);
     font-weight: 500;
     font-size: 1.5rem;
     border-radius: 1rem;
     cursor: pointer;
     transition: all 500ms;
     box-sizing: border-box;
-    border: 3px solid #29f0fa;
+    border: 3px solid var(--third-color);
     display: flex;
     flex-direction: row;
     gap: 1rem;

@@ -8,6 +8,18 @@
 
 :root {
     font-family: 'League Spartan', sans-serif;
+    --first-color: #FFFFFF;
+    --second-color: #000000;
+    --third-color: #29f0fa;
+    --standard-width: 80%;
+    --standard-padding: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --standard-width: 90%;
+        --standard-padding: 5%;    
+    }    
 }
 
 .container {

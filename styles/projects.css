@@ -1,5 +1,5 @@
 .projects {
-    width: 80%;
+    width: var(--standard-width);
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -14,7 +14,7 @@
 .projects__list {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -23,16 +23,17 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background-color: black;
-    color: white;
+    background-color: var(--second-color);
+    color: var(--first-color);
     padding: 1.25rem;
-    border-radius: .5rem;
+    border-radius: .75rem;
     width: 450px;
     justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.7);
 }
 
 .project__title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -46,7 +47,7 @@
 
 .project__desc {
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5rem;
 }
 
@@ -58,20 +59,20 @@
 }
 
 .project__link {
-    background-color: #29f0fa;
-    color: black;
+    background-color: var(--third-color);
+    color: var(--second-color);
     padding: .5rem 1rem;
     display: inline-block;
     border-radius: .5rem;
     font-size: 1.25rem;
-    border: 2px solid black;
+    border: 2px solid var(--third-color);
     transition: 500ms all;
 }
 
 .project__link:hover {
-    color: #29f0fa;
-    background-color: black;
-    border-color: #29f0fa;
+    color: var(--third-color);
+    background-color: var(--second-color);
+    border-color: var(--third-color);
 }
 
 .project__area {

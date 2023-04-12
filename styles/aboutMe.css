@@ -1,5 +1,5 @@
 .aboutMe {
-    width: 80%;
+    width: var(--standard-width);
     padding: 3rem 0 2rem 0;
     display: grid;
     grid-template-columns: 60% 40%;
