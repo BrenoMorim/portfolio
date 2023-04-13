@@ -1,5 +1,7 @@
 let languagesTexts = {
     "en-us": {
+        pageTitle: "Breno Morim's Portfolio",
+        pageDesc: "My custom portfolio, containing my contact information, technologies I work with and also my projects",
         jobTitle: "Software Developer | Intern",
         selectLanguage: "Select language",
         aboutMe: {
@@ -22,6 +24,8 @@ let languagesTexts = {
         footerText: "Developed by Breno Morim in 2023, using Next.js",
     },
     "pt-br": {
+        pageTitle: "Portfólio do Breno Morim",
+        pageDesc: "Meu portfólio customizado, contendo um pouco da minha trajetória, meus projetos e tecnologias com que trabalho",
         jobTitle: "Desenvolvedor FullStack | Estagiário",
         selectLanguage: "Selecionar idioma",
         aboutMe: {
