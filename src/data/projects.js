@@ -100,7 +100,7 @@ const projects = [
             "pt-br": "Uma pesquisa estatística sobre desigualdade de gênero no Brasil, considerando a diferença em renda e estudo entre homens e mulheres"
         },
         url: "https://github.com/BrenoMorim/desigualdade-de-genero",
-        imgUrl: "https://github.com/BrenoMorim/desigualdade-de-genero/raw/main/imagem-do-projeto.png?raw=true",
+        imgUrl: "https://github.com/BrenoMorim/desigualdade-de-genero/raw/main/graficos/renda_mulheres.png?raw=true",
         area: "data science"
     },
     {   
