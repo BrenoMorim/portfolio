@@ -105,19 +105,6 @@ const projects = [
     },
     {   
         title: {
-            "en-us": "Simplewpps",
-            "pt-br": "Simplewpps"
-        },
-        desc: {
-            "en-us": "Rest API that can be used to share and save wallpapers, made with Java and Spring",
-            "pt-br": "Uma API Rest para salvar e compartilhar wallpapers, desenvolvida com Java e Spring"
-        },
-        url: "https://github.com/BrenoMorim/simplewpps-back-end",
-        imgUrl: "https://github.com/BrenoMorim/simplewpps-back-end/raw/main/imagem-do-projeto.png?raw=true",
-        area: "back-end"
-    },
-    {   
-        title: {
             "en-us": "Breno's confectionery",
             "pt-br": "Confeitaria do Breno"
         },
@@ -127,6 +114,32 @@ const projects = [
         },
         url: "https://github.com/BrenoMorim/confeitaria",
         imgUrl: "https://github.com/BrenoMorim/confeitaria/raw/main/imagens/index.png?raw=true",
+        area: "back-end"
+    },
+    {   
+        title: {
+            "en-us": "CS50 Finance",
+            "pt-br": "CS50 Finance"
+        },
+        desc: {
+            "en-us": "An investment platform developed for the CS50 course, using python and Flask",
+            "pt-br": "Uma plataforma de investimentos desenvolvida para o curso CS50, usando python e Flask"
+        },
+        url: "https://github.com/BrenoMorim/cs50finance",
+        imgUrl: "https://github.com/BrenoMorim/cs50finance/raw/main/project-image.png?raw=true",
+        area: "back-end"
+    },
+    {   
+        title: {
+            "en-us": "Simplewpps",
+            "pt-br": "Simplewpps"
+        },
+        desc: {
+            "en-us": "Rest API that can be used to share and save wallpapers, made with Java and Spring",
+            "pt-br": "Uma API Rest para salvar e compartilhar wallpapers, desenvolvida com Java e Spring"
+        },
+        url: "https://github.com/BrenoMorim/simplewpps-back-end",
+        imgUrl: "https://github.com/BrenoMorim/simplewpps-back-end/raw/main/imagem-do-projeto.png?raw=true",
         area: "back-end"
     },
     {   
@@ -142,6 +155,45 @@ const projects = [
         imgUrl: "https://github.com/BrenoMorim/calculadora-determinantes/raw/main/imagem-do-projeto.png?raw=true",
         area: "front-end"
     },
+    {   
+        title: {
+            "en-us": "TicTacToe",
+            "pt-br": "Jogo da Velha"
+        },
+        desc: {
+            "en-us": "A TicTacToe game developed for the CS50AI course, using python and pygame. You can play against a friend or an AI",
+            "pt-br": "Um jogo da velha desenvolvido para o curso CS50AI, desenvolvido com python e pygame. Você pode jogar contra um amigo ou uma IA"
+        },
+        url: "https://github.com/BrenoMorim/tictactoe",
+        imgUrl: "https://github.com/BrenoMorim/tictactoe/raw/main/project-image.png?raw=true",
+        area: "data science"
+    },
+    {   
+        title: {
+            "en-us": "Nim",
+            "pt-br": "Nim"
+        },
+        desc: {
+            "en-us": "A Nim game to be played against an AI, which is trained through a reinforcement learning algorithm",
+            "pt-br": "Um jogo Nim para ser jogado contra uma IA, que é treinada através de um algoritmo de machine learning"
+        },
+        url: "https://github.com/BrenoMorim/nim",
+        imgUrl: "https://github.com/BrenoMorim/nim/raw/main/project-image.png?raw=true",
+        area: "data science"
+    },
+    {   
+        title: {
+            "en-us": "Traffic sign recognition",
+            "pt-br": "Reconhecimento de placas de trânsito"
+        },
+        desc: {
+            "en-us": "Project developed for the CS50AI course, using a neural network built with TensorFlow in Python to recognize traffic signs",
+            "pt-br": "Projeto desenvolvido para o curso CS50AI, usando uma rede neural construída com TensorFlow em Python para reconhecer placas de trânsito"
+        },
+        url: "https://github.com/BrenoMorim/traffic",
+        imgUrl: "https://github.com/BrenoMorim/traffic/raw/main/project-image.png?raw=true",
+        area: "data science"
+    }
 ];
 
 export default projects;

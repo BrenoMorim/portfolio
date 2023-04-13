@@ -6,7 +6,7 @@ My custom portfolio, available in English and Portuguese. Developed in JavaScrip
 | -------------  | --- |
 | :sparkles: Nome        | **Portfolio**
 | :label: Tecnologias | React, Next.js, JS, HTML, CSS
-| :rocket: URL         | <https://portfolio-brenomorim.vercel.app//>
+| :rocket: URL         | <https://portfolio-brenomorim.vercel.app/>
 
 ![Homepage of the project](https://github.com/BrenoMorim/portfolio/blob/main/project-image.png?raw=true#vitrinedev)
 
