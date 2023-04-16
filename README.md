@@ -22,6 +22,7 @@ The projects uses React to create custom components and organize the structure o
   - components: Includes each section of the page, with subcomponents as well
   - context: Controls the language context of the project, since it's available both in English and Portuguese
   - data: Contains the information to be rendered, such as the projects I have done, the texts, the technologies I work with and also the courses I have taken
+  - util: Folder that contains utilitary functions
 - styles: Concentrates all the css, which is used globally
 
 ---
