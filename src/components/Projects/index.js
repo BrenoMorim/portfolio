@@ -8,7 +8,7 @@ export default function Projects() {
 
     return (
         <section className="projects">
-            <h3 className="projects__title">{state.texts.myProjects}</h3>
+            <h3 className="projects__title reveal fade-left">{state.texts.myProjects}</h3>
             <div className="projects__list">
                 {
                     projects.map(project => (

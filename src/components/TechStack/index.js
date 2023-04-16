@@ -8,11 +8,11 @@ export default function TechStack() {
 
     return (
         <section className="techstack">
-            <h3 className="techstack__title">{state.texts.techStack}</h3>
+            <h3 className="techstack__title reveal fade-bottom">{state.texts.techStack}</h3>
             <div className="techstack__areas">
                 {techStack.map(stack => {
                     return (
-                        <div key={stack.title} className="techstack__area">
+                        <div key={stack.title} className="techstack__area reveal fade-left">
                             <p className="techstack__caption">{stack.title}</p>
                             <ul className="techstack__list">
                                 {stack.tags.map(tag => (

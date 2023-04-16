@@ -6,7 +6,7 @@ export default function Card({ project }) {
     const { state } = useContext(LanguageContext);
 
     return (
-        <article className="project">
+        <article className="project reveal fade-right">
             <h4 className="project__title">{project.title[state.languageSelected]}</h4>
             <div className="project__image"
                 style={{backgroundImage: `url(${project.imgUrl})`}}
