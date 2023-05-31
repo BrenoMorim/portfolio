@@ -14,6 +14,13 @@ const courses = [
         }
     },
     {
+        title: "CS50P",
+        description: {
+            "pt-br": "Introdução à programação com Python",
+            "en-us": "CS50's Introduction to Programming with Python"
+        }
+    },
+    {
         title: "Alura",
         description: {
             "pt-br": "Cursos na área de tecnologia e programação, focados em Back-end, Front-end, Data Science e Mobile.",
