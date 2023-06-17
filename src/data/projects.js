@@ -142,6 +142,19 @@ const projects = [
         imgUrl: "https://github.com/BrenoMorim/simplewpps-back-end/raw/main/imagem-do-projeto.png?raw=true",
         area: "back-end"
     },
+    {
+        title: {
+            "en-us": "SP Development Reasearch",
+            "pt-br": "Pesquisa Desenvolvimento SP"
+        },
+        desc: {
+            "en-us": "Research about the development of the cities in the state of São Paulo, using Python and its Data Visualization libraries, like Seaborn and Plotly",
+            "pt-br": "Pesquisa estatística sobre o desenvolvimento dos municípios do estado de São Paulo, usando Python e suas bibliotecas de Visualização de Dados, como Seaborn e Plotly"
+        },
+        url: "https://github.com/BrenoMorim/pesquisa-sao-paulo",
+        imgUrl: "https://github.com/BrenoMorim/pesquisa-sao-paulo/raw/main/graficos/comparacao_ipdm.png?raw=true",
+        area: "data science"
+    },
     {   
         title: {
             "en-us": "Determinant calculator",
