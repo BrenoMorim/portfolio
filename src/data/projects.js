@@ -131,6 +131,19 @@ const projects = [
     },
     {   
         title: {
+            "en-us": "Pedagogical Management",
+            "pt-br": "Controle Pedagógico"
+        },
+        desc: {
+            "en-us": "Rest API for pedagogical management according to the Wizard standards, developed using Java and Spring",
+            "pt-br": "API REST para gestão pedagógica seguindo o padrão Wizard com Java e Spring"
+        },
+        url: "https://github.com/BrenoMorim/controlepedagogico",
+        imgUrl: "https://github.com/BrenoMorim/controlepedagogico/raw/main/imagem-do-projeto.png?raw=true",
+        area: "back-end"
+    },
+    {   
+        title: {
             "en-us": "Simplewpps",
             "pt-br": "Simplewpps"
         },
@@ -144,7 +157,7 @@ const projects = [
     },
     {
         title: {
-            "en-us": "SP Development Reasearch",
+            "en-us": "SP Development Research",
             "pt-br": "Pesquisa Desenvolvimento SP"
         },
         desc: {
