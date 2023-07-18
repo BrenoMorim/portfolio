@@ -25,6 +25,19 @@ const projects = [
         imgUrl: "https://github.com/BrenoMorim/mercado-financeiro-na-pandemia/blob/main/graficos/ibovespa.png?raw=true",
         area: "data science"
     },
+    {
+        title: {
+            "en-us": "Pokédex",
+            "pt-br": "Pokédex"
+        },
+        desc: {
+            "en-us": "My custom Pokédex website, using ReactJS and the PokéAPI",
+            "pt-br": "Minha Pokédex customizada, usando ReactJS e a PokéAPI"
+        },
+        url: "https://pokedex-brenomorim.vercel.app/",
+        imgUrl: "https://github.com/BrenoMorim/pokedex/blob/development/imagens/pokemon-charizard.png?raw=true",
+        area: "front-end"
+    },
     {   
         title: {
             "en-us": "HangMan",
