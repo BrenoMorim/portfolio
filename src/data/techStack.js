@@ -31,6 +31,7 @@ const techStack = [
         tags: [
             "https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54&style=for-the-badge",
             "https://img.shields.io/badge/Microsoft_Excel-217346?logo=microsoft-excel&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/Power_BI-F4D160?logo=power-bi&logoColor=white&style=for-the-badge",
             "https://img.shields.io/badge/jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white&style=for-the-badge",
             "https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white&style=for-the-badge",
             "https://img.shields.io/badge/pandas-%23150458.svg?logo=pandas&logoColor=white&style=for-the-badge",

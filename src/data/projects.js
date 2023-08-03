@@ -22,7 +22,7 @@ const projects = [
             "pt-br": "Uma pesquisa estatística do mercado financeiro brasileiro durante a pandemia"
         },
         url: "https://github.com/BrenoMorim/mercado-financeiro-na-pandemia",
-        imgUrl: "https://github.com/BrenoMorim/mercado-financeiro-na-pandemia/blob/main/graficos/ibovespa.png?raw=true",
+        imgUrl: "https://github.com/BrenoMorim/mercado-financeiro-na-pandemia/blob/main/imagem-do-projeto.png?raw=true",
         area: "data science"
     },
     {
@@ -113,7 +113,7 @@ const projects = [
             "pt-br": "Uma pesquisa estatística sobre desigualdade de gênero no Brasil, considerando a diferença em renda e estudo entre homens e mulheres"
         },
         url: "https://github.com/BrenoMorim/desigualdade-de-genero",
-        imgUrl: "https://github.com/BrenoMorim/desigualdade-de-genero/raw/main/graficos/renda_mulheres.png?raw=true",
+        imgUrl: "https://github.com/BrenoMorim/desigualdade-de-genero/raw/main/imagem-do-projeto.png?raw=true",
         area: "data science"
     },
     {   
@@ -178,7 +178,7 @@ const projects = [
             "pt-br": "Pesquisa estatística sobre o desenvolvimento dos municípios do estado de São Paulo, usando Python e suas bibliotecas de Visualização de Dados, como Seaborn e Plotly"
         },
         url: "https://github.com/BrenoMorim/pesquisa-sao-paulo",
-        imgUrl: "https://github.com/BrenoMorim/pesquisa-sao-paulo/raw/main/graficos/comparacao_ipdm.png?raw=true",
+        imgUrl: "https://github.com/BrenoMorim/pesquisa-sao-paulo/raw/main/imagem-do-projeto.png?raw=true",
         area: "data science"
     },
     {   
