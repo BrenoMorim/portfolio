@@ -7,6 +7,7 @@ import TechStack from "../src/components/TechStack";
 import Projects from "../src/components/Projects";
 import { useEffect } from 'react';
 import reveal from '../src/util/reveal';
+import ProfessionalExperience from "../src/components/ProfessionalExperience";
 
 export default function HomePage() {
 
@@ -19,6 +20,7 @@ export default function HomePage() {
             <Header/>
             <main className="mainContainer">
                 <AboutMe/>
+                <ProfessionalExperience/>
                 <ContactInfo/>
                 <TechStack/>
                 <Projects/>
