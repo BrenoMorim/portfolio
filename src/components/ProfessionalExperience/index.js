@@ -7,7 +7,7 @@ export default function ProfessionalExperience() {
     const { state } = useContext(LanguageContext);
 
     return (
-        <section className="professionalExperiences">
+        <section className="professionalExperiences animate__animated animate__slideInLeft">
             <h3 className="professionalExperiences__title">{ state.texts.aboutMe.experience }</h3>
             <div className="professionalExperiences__list">
                 {professionalExperiences && professionalExperiences.map(experience => (
